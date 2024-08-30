@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stoper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Stoper</h1>
+        <div id="countdown">3</div>
+        <div id="timer">00:00:00</div>
+        <button id="startButton">Start</button>
+        <button id="stopButton">Stop</button>
+        <button id="saveButton">Zapisz czas</button>
+        <button id="resetButton">Reset</button>
+        <div id="savedTimes">
+            <h2>Zapisane czasy:</h2>
+            <ul id="timeList"></ul>
+        </div>
+        <audio id="beepSound" src="beep.mp3" preload="auto"></audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
